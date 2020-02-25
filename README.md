@@ -15,8 +15,8 @@ DB_USER=<db_username>
 DB_PASSWORD=<db_password>
 DB_DATABASE=<db_name>
 ``` 
-4. Run command `npm start` to start the app
-5. You can use POSTMAN to test your APIs by going to http://localhost:9711
+5. Run command `npm start` to start the app
+6. You can use POSTMAN to test your APIs by going to http://localhost:9711
 
 * POST: `/paths` to add new paths.
 
@@ -26,5 +26,5 @@ DB_DATABASE=<db_name>
 
 * GET: `/paths/<id>/navigate` should return the navigated path
 
-6. Refer to `Navigator.txt` file for more explanation
+7. Refer to `Navigator.txt` file for more explanation
 
