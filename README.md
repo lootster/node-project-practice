@@ -1,8 +1,8 @@
 ## Getting Started
 
-1. Fork and clone the repo, `cd` into the repo
+1. Fork and clone the repo, then `cd` into the repo
 2. Run command `npm install` at terminal to install all dependencies
-3. Create a `.env` file a root directory
+3. Create a `.env` file at the root directory
 4. Insert the following in `.env` file to connect to MySQL remote database
 ```
 ENV=development
