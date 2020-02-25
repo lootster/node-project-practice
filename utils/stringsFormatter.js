@@ -10,7 +10,7 @@ module.exports.stringsFormatter = path => {
   };
 
   characters.forEach(char => charCountStore[char]++);
-  // console.log(charStore);
+
   let countOfL = charCountStore["l"];
   let countOfR = charCountStore["r"];
   let countOfU = charCountStore["u"];
