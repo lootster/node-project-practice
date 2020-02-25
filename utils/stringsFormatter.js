@@ -21,25 +21,32 @@ module.exports.stringsFormatter = path => {
       if (isBeforeBottomGrid(countOfD, countOfU)) {
         characters[i] = "d";
         countOfD++;
-      } else if (isBeforeRightGrid(countOfR, countOfL)) {
+      } 
+      else if (isBeforeRightGrid(countOfR, countOfL)) {
         characters[i] = "r";
         countOfR++;
-      } else if (isBeyondBottomGrid(countOfD, countOfU)) {
+      } 
+      else if (isBeyondBottomGrid(countOfD, countOfU)) {
         characters[i] = "u";
         countOfU++;
-      } else if (isBeyondRightGrid(countOfR, countOfL)) {
+      } 
+      else if (isBeyondRightGrid(countOfR, countOfL)) {
         characters[i] = "l";
         countOfL++;
-      } else if (isAtBottomGrid(countOfD, countOfU)) {
+      } 
+      else if (isAtBottomGrid(countOfD, countOfU)) {
         characters[i] = "u";
         countOfU++;
-      } else if (isAtBottomGrid(countOfD, countOfU)) {
+      } 
+      else if (isAtBottomGrid(countOfD, countOfU)) {
         characters[i] = "r";
         countOfR++;
-      } else if (isAtRightGrid(countOfR, countOfL)) {
+      } 
+      else if (isAtRightGrid(countOfR, countOfL)) {
         characters[i] = "l";
         countOfL++;
-      } else if (isAtRightGrid(countOfR, countOfL)) {
+      } 
+      else if (isAtRightGrid(countOfR, countOfL)) {
         characters[i] = "d";
         countOfR++;
       }
